@@ -6,6 +6,7 @@ function contar(n) {
   }
 }
 
+// método usamos para calcular el tiempo en JavaScript
 let inicio_tiempo = performance.performance.now();
 contar(5);
 let final_tiempo = performance.performance.now();
